@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    background-color: red;
+}
+
+.item {
+    flex: auto;
+    width: calc((100%/ 16) - (15px/16)); 
+    height: clac(6.25vh - (15px/16));
+    background-color: yellow;
+}
